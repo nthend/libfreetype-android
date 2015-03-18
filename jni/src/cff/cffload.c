@@ -1314,7 +1314,7 @@
     FT_Error         error;
     CFF_ParserRec    parser;
     FT_Byte*         dict = NULL;
-    FT_ULong         dict_len;
+    FT_ULong         dict_len = 0;
     CFF_FontRecDict  top  = &font->font_dict;
     CFF_Private      priv = &font->private_dict;
 
